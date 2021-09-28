@@ -17,8 +17,15 @@
 		"commands": [{
             "command": "test.helloWorld",
             "title": "Hello World"
-
-		}]
+		}],
+		"views": {
+			"explorer": [
+				{
+				"id": "test.testTree",
+				"name": "阿东test"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"lint": "eslint .",
